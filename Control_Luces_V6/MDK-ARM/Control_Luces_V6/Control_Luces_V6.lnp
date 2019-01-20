@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"control_luces_v6\startup_stm32f411xe.o"
+"control_luces_v6\main.o"
+"control_luces_v6\stm32f4xx_it.o"
+"control_luces_v6\stm32f4xx_hal_msp.o"
+"control_luces_v6\stm32f4xx_hal_adc.o"
+"control_luces_v6\stm32f4xx_hal_adc_ex.o"
+"control_luces_v6\stm32f4xx_hal_tim.o"
+"control_luces_v6\stm32f4xx_hal_tim_ex.o"
+"control_luces_v6\stm32f4xx_hal_uart.o"
+"control_luces_v6\stm32f4xx_hal_rcc.o"
+"control_luces_v6\stm32f4xx_hal_rcc_ex.o"
+"control_luces_v6\stm32f4xx_hal_flash.o"
+"control_luces_v6\stm32f4xx_hal_flash_ex.o"
+"control_luces_v6\stm32f4xx_hal_flash_ramfunc.o"
+"control_luces_v6\stm32f4xx_hal_gpio.o"
+"control_luces_v6\stm32f4xx_hal_dma_ex.o"
+"control_luces_v6\stm32f4xx_hal_dma.o"
+"control_luces_v6\stm32f4xx_hal_pwr.o"
+"control_luces_v6\stm32f4xx_hal_pwr_ex.o"
+"control_luces_v6\stm32f4xx_hal_cortex.o"
+"control_luces_v6\stm32f4xx_hal.o"
+"control_luces_v6\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Control_Luces_V6\Control_Luces_V6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Control_Luces_V6.map" -o Control_Luces_V6\Control_Luces_V6.axf
